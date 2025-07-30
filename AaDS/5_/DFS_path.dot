@@ -1,0 +1,35 @@
+digraph G {
+  node [shape=ellipse, style=filled, fillcolor=lightblue];
+  "V0" [label="V0\n(41.0, 85.0)"];
+  "V1" [label="V1\n(72.0, 38.0)"];
+  "V2" [label="V2\n(80.0, 69.0)"];
+  "V3" [label="V3\n(65.0, 68.0)"];
+  "V4" [label="V4\n(96.0, 22.0)"];
+  "V5" [label="V5\n(49.0, 67.0)"];
+  "V6" [label="V6\n(51.0, 61.0)"];
+  "V7" [label="V7\n(63.0, 87.0)"];
+  "V8" [label="V8\n(50.0, 50.0)"];
+  "V0" -> "V7" [label="22.09"];
+  "V0" -> "V6" [label="26.00"];
+  "V0" -> "V3" [label="29.41"];
+  "V1" -> "V6" [label="31.14"];
+  "V1" -> "V5" [label="37.01"];
+  "V1" -> "V4" [label="28.84"];
+  "V2" -> "V6" [label="30.08"];
+  "V2" -> "V1" [label="32.02"];
+  "V3" -> "V6" [label="15.65"];
+  "V3" -> "V5" [label="16.03"];
+  "V3" -> "V4" [label="55.47"];
+  "V4" -> "V3" [label="55.47"];
+  "V5" -> "V6" [label="6.32"];
+  "V6" -> "V2" [label="30.08"];
+  "V6" -> "V0" [label="26.00"];
+  "V7" -> "V6" [label="28.64"];
+  "V7" -> "V0" [label="22.09"];
+  "V8" -> "V1" [label="25.06"];
+  "V4" -> "V3" [color=red, penwidth=2.5, label="5"];
+  "V1" -> "V4" [color=red, penwidth=2.5, label="4"];
+  "V2" -> "V1" [color=red, penwidth=2.5, label="3"];
+  "V6" -> "V2" [color=red, penwidth=2.5, label="2"];
+  "V7" -> "V6" [color=red, penwidth=2.5, label="1"];
+}

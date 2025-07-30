@@ -1,0 +1,14 @@
+digraph G {
+  node [shape=ellipse, style=filled, fillcolor=lightblue];
+  "A" [label="A\n(10.0, 10.0)"];
+  "B" [label="B\n(10.0, 7.0)"];
+  "C" [label="C\n(15.0, 6.0)"];
+  "D" [label="D\n(50.0, 50.0)"];
+  "A" -> "B" [label="3.00"];
+  "B" -> "C" [label="5.10"];
+  "C" -> "D" [label="56.22"];
+  "A" -> "B" [color=blue, penwidth=2.5];
+  "B" -> "C" [color=red, penwidth=2.5];
+  "A" -> "B" [color=yellow, penwidth=2.5];
+  "B" -> "C" [color=yellow, penwidth=2.5];
+}
